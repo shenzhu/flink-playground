@@ -71,25 +71,25 @@ under the License.
 		<dependency>
 			<groupId>org.apache.flink</groupId>
 			<artifactId>flink-table-api-java-bridge_2.12</artifactId>
-			<version>1.15-SNAPSHOT</version>
+			<version>${flink.version}</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.flink</groupId>
 			<artifactId>flink-table-planner_2.12</artifactId>
-			<version>1.15-SNAPSHOT</version>
+			<version>${flink.version}</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.flink</groupId>
 			<artifactId>flink-streaming-scala_2.12</artifactId>
-			<version>1.15-SNAPSHOT</version>
+			<version>${flink.version}</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.flink</groupId>
 			<artifactId>flink-table-common</artifactId>
-			<version>1.15-SNAPSHOT</version>
+			<version>${flink.version}</version>
 			<scope>compile</scope>
 		</dependency>
 
@@ -128,7 +128,7 @@ under the License.
 		<dependency>
 			<groupId>org.apache.flink</groupId>
 			<artifactId>flink-connector-kafka</artifactId>
-			<version>1.15-SNAPSHOT</version>
+			<version>${flink.version}</version>
 		</dependency>
 	</dependencies>
 
